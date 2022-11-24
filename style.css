@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet')
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/css brand logo dan nama/
+.brand span{
+    margin-left: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+.brand li,a,button{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5%;
+    background-color: black;
+}
+.brand{
+    list-style: none;
+}
+.brand li{
+    display: inline-block;
+    padding: 5px;
+}
+.brand span{
+    margin-right: 200px;
+    text-shadow: 2px 2px 5px red;
+}
+
+.brand li a:hover{
+    color: orange;
+}
+
+.brand input[type=search]{
+    border-radius: 10px;
+    padding: 8px 10px;
+}
+.brand button{
+    padding: 5px 8px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.brand button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+/Jumbotron/
+.jumbotron{
+    height: 520px;
+    margin-top: 0px;
+    font-family: "Poopins", sans-serif;
+    background-image: url('images/bukit1.jpg');
+    background-size: cover;
+    background-position-y:-100px ;
+
+}
+.jumbotron:hover{
+    background-image: url('images/pura.jpg');
+}
+.text-brand{
+    margin-left: 50px;
+    padding: 70px;
+    color:#edf0f1
+}
+.text-brand h1{
+    font-size: 50px;
+    text-shadow: 2px 2px 5px red;
+}
+.text-brand p{
+    font-size: 17px;
+    text-align: justify;
+    text-shadow: 1px 1px black;
+    color:white;
+}
+.btn-jelajahi{
+    width: 150px;
+    height: 30px;
+    background-color: darkgray;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+}
+.btn-jelajahi:hover{
+    background-color:grey;
+}
+.btn-jelajahi a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+.btn-video{
+    width: 150px;
+    height: 30px;
+    background-color: darkgray;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+}
+.btn-video:hover{
+    background-color: grey;
+}
+.btn-video a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+/Konten objek wisata/
+.objekwisata{
+    margin: 5px;
+    padding: 10px;
+    background-color: paleturquoise;
+    column-count: 2;
+    -moz-column-count: 2;
+      -webkit-column-count: 2;
+      column-gap: 20px;
+      -moz-column-gap: 20px;
+      -webkit-column-gap: 20px;
+      border: 1px solid #ccc;
+}
+.objekwisata .gambarobjek{
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.gambar .title{
+    text-align: center;
+    font-size: 15px;
+}
+.objekwisata .isian h1{
+    font-size: 35px;
+    text-align: justify;
+}
+.objekwisata .isian p{
+    font-size: 20px;
+    text-align: justify;
+    padding: 5px;
+}
+.objekwisata .isian .baca{
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+    text-decoration: none;
+}
+.link-img{
+    text-decoration: none;
+    font-size: 20px;
+    color: navy;
+    text-shadow: 1px 1px 3px black;
+}
+/Sarana Akomodasi/
+.kolom{
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(46, 190, 190);
+    column-count: 3;
+    -moz-column-count: 3;
+      -webkit-column-count: 3;
+      column-gap: 20px;
+      -moz-column-gap: 20px;
+      -webkit-column-gap: 20px;
+      border: 1px solid blue;
+}
+.form{
+    position: center;
+    margin: 10px;
+    padding: 30px;
+    background-color: powderblue;
+    width: 600px;
+    height: 400px;
+}
+.form .nama, .email, .hari, .pesan, .tombol{
+    width: 300px;
+    height: 40px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.form .tombol{
+    border-radius: 10px;
+    padding: 1px 10px 10px;
+    text-align: center;
+    text-decoration-style: bold;
+    background-color: #fff338;
+
+}
+.form h3{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.form .pesan{
+    height: 60px;
+}
+
+/footer/
+footer{
+    margin: 0px;
+    padding: 10px;
+    background-color: navy;
+    column-count: 3;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-gap: 40px;
+    -moz-column-gap: 40px;
+    -webkit-column-gap: 40px;
+    border: 1px solid #ccc;
+}
+footer p{
+    text-align: justify;
+    font-size: 20px;
+    color: white;
+
+}
+footer ul li{
+    text-decoration: none;
+    list-style: none;
+}
